@@ -136,6 +136,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1720392367}
     m_Modifications:
+    - target: {fileID: -9089615444713831131, guid: 69178f10e4cf8e24fa6cc4b35d7b3402,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0414703
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69178f10e4cf8e24fa6cc4b35d7b3402,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1127,7 +1132,7 @@ Animator:
   m_GameObject: {fileID: 1709911538}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 69178f10e4cf8e24fa6cc4b35d7b3402, type: 3}
-  m_Controller: {fileID: 9100000, guid: a3acde9ca4e0c5049b184a8fb4b0065c, type: 2}
+  m_Controller: {fileID: 9100000, guid: eeef763ce78cecd4391db06aebe2f4eb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1495,6 +1500,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5b0bbcc48b5bfdf449cdaf253e2bad6e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eeef763ce78cecd4391db06aebe2f4eb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
