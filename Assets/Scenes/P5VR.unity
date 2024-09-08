@@ -194,7 +194,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 69178f10e4cf8e24fa6cc4b35d7b3402,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1709911540}
   m_SourcePrefab: {fileID: 100100000, guid: 69178f10e4cf8e24fa6cc4b35d7b3402, type: 3}
 --- !u!1 &490965400
 GameObject:
@@ -1101,12 +1105,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1709911538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 69178f10e4cf8e24fa6cc4b35d7b3402,
+    type: 3}
+  m_PrefabInstance: {fileID: 329052381}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1709911539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69178f10e4cf8e24fa6cc4b35d7b3402,
     type: 3}
   m_PrefabInstance: {fileID: 329052381}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1709911540
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709911538}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 69178f10e4cf8e24fa6cc4b35d7b3402, type: 3}
+  m_Controller: {fileID: 9100000, guid: a3acde9ca4e0c5049b184a8fb4b0065c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1720392366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RightHand
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b0bbcc48b5bfdf449cdaf253e2bad6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
