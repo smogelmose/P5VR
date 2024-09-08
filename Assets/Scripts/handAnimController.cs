@@ -21,9 +21,11 @@ public class handAnimController : MonoBehaviour
     void Update()
     {
         float pinchValue = pinchAnim.action.ReadValue<float>();
-        Debug.Log("pinch value: " + pinchValue);
+        // Debug.Log("pinch value: " + pinchValue);
+        handAnim.SetFloat("Pinch", pinchValue);
 
         float fistValue = fistAnim.action.ReadValue<float>();
-        Debug.Log("fist value: " + fistValue);
+        // Debug.Log("fist value: " + fistValue);
+        handAnim.SetFloat("Fist", fistValue);
     }
 }
