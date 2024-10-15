@@ -30,7 +30,7 @@ public class shooterScript : MonoBehaviour
 		newBullet.transform.position = spawnPosition.position;
 		newBullet.GetComponent<Rigidbody>().velocity = spawnPosition.forward * bulletSpeed;
 		
-		Destroy(newBullet, 10);
+		Destroy(newBullet, 100);
 
 
 	}
